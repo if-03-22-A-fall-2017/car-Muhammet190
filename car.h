@@ -25,8 +25,9 @@ float get_fill_level(Car c1);
 float get_acceleration_rate(Car c1);
 Car get_car (CarType type);
 int get_speed(Car c1);
-void set_acceleration_rate(Car c1,int number);
+void set_acceleration_rate(Car c1,float acceleration_rate);
 void accelerate(Car c1);
+int round(double speed);
 void init();
 
 
